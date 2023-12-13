@@ -25,7 +25,7 @@ def move_folder(source_folder, destination_folder):
     shutil.move(source_folder, destination_folder)
 
 if __name__ == "__main__":
-    base_path = "/home/pefbrute/Pictures/Картинки на Продажу/Редбабл, ТиПаблик (Копирайт, Мемы и ИИ Арт)"
+    base_path = "/home/pefbrute/Pictures/"
     selected_folder = sys.argv[1]  # The folder selected in Nautilus
 
     highest_number = get_highest_number(base_path)
